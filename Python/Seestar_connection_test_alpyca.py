@@ -6,9 +6,15 @@
 #  the documentation for the Python Alpyca module which provides
 #  an interface to ASCOM Alpaca devices.
 #
-#  
 #  Peter D. Wilson 2026-02-16
-#  
+#
+##########
+# It is possible that the scritp will report a failure to execute
+# the requested slew movement. For example, I typically see
+# "Target is below the horizon". This is OK because it is showing
+# that the Alpaca server in the Seestar is working by doing the
+# maths and flagging it's inability to perform the requested task.
+##########
 
 import sys
 import time
