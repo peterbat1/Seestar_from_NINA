@@ -14,7 +14,7 @@ This note documents a workflow that allowed my Seestar S50 to connect to my inst
 
 Using utilities on the Linux machine, I could identify the IP address of my Seestar S50 on my home LAN (note the Seestar must be started in “station mode”).
 
-I adapted demonstration Python code from the documentation for Alpyca, the ASCOM Alpaca Python module. One script, *Seestar_discovery_test_alpyca.py*, provided information on the port used by my Seestar S50. The second script, *Seestar_connection_test_alpyca.py*, was used to confirm that connection could be made using the IP and port details. 
+I adapted demonstration Python code from the documentation for Alpyca, the ASCOM Alpaca Python module. One script, *Seestar_discovery_test_alpyca.py*, provided information on the port used by my Seestar S50. A second script, *Seestar_server_info_alpyca.py*, was used to confirm that all the compomnent devices could be found. Finally a third script, *Seestar_connection_test_alpyca.py*, was used to confirm that connection could be made using the IP and port details, and that control commands would be correctly dealt with by the Seestar.
 
 In addition, I could use Firefox to access and control the Seestar via Alpaca web interface hosted by the Seestar. I was able to control each of the component devices (camera, focusser, mount (or “telescope”), filter wheel, dew heater function) through this web interface.
 
@@ -43,6 +43,8 @@ On the **Linux** host, establish the correct IP address and port number for the 
 + Run the Python script Seestar_discovery_test_alpyca.py and note the reported port number for the Seestar S50 Alpaca server. Typically, for a single device on the network this will port 32323 with the default discovery port 32227. However, note that the Alpaca documentation states that other port numbers may also be present, presumably to avoid conflicts when multiple Alpaca servers are discovered on the same LAN.
       
 + Test the IP and port combination using a web browser on the Linux host and also in the Windows virtual machine: You should see an Alpaca webpage which lets you connect each device within the S50 (eg camera, focuser, filter wheel, switch (dew heater) and telescope (aka mount)
+
++ Test that correct information about the Seestar's devices is listed by running the Python script *Seestar_server_info_alpyca.py*. (This step is optional but it does give you a complete understanding of the correct functioning of the ASCOM Aplaca interface).
 
 + Test connection on both Linux and Windows machines using the Python script *Seestar_connection_test_alpyca.py* and the IP address and port number combination.
 
