@@ -14,7 +14,6 @@
 #        step to complete, so please be patient
 #  
 
-
 import sys
 from alpaca import discovery
 from alpaca import management
@@ -32,7 +31,6 @@ def main(args):
 			print(f"    {dev['DeviceType']}[{dev['DeviceNumber']}]: {dev['DeviceName']}")
 	
 	return 0
-
 
 if __name__ == '__main__':
 	sys.exit(main(sys.argv[1:]))
