@@ -99,3 +99,28 @@ The next phase steps through the process of generating ASCOM Alpaca interface dr
    - Test that connection is successful (eg that 3 filters are shown in Filter device and that you can hear the S50 change filters when you command a filter change; for the telescope (aka mount) the arm should move up and down using the N and S controls and close when the Park control is activated))
       
 **Yeah! We can now do stuff!**
+
+
+## Youtube resources ##
+
+Controlling Seestar with NINA https://www.youtube.com/watch?v=Kdqw6NF8-HM
+
+How to Use NINA w/Seestar: Part I https://www.youtube.com/watch?v=Cu50eBfxTJc
+
+NINA for Seestar Part II: How to Use Auto Focus https://www.youtube.com/watch?v=QKJgcZGqbxI
+
+Nina for Seestar Tutorial Part 3 https://www.youtube.com/watch?v=LgcLJPXF60M
+
+Using NINA's Sequencer with Seestar https://www.youtube.com/watch?v=-EnsXKiaM-w
+
+Latest Seestar Alpaca Update Features https://www.youtube.com/watch?v=Hd6iD05iHVs
+
+Seestar Alpaca Update v1.1.3-1 Enables NINA AutoStart https://www.youtube.com/watch?v=rpW0umIh1Wg
+
+5 Tips to Connect NINA to Seestar https://www.youtube.com/watch?v=AObOdujVZpY
+
+Controlling my Seestar on my Computer with NINA https://www.youtube.com/watch?v=iAxT6zbbPxc
+
+NINA Autofocus in Seestar https://www.youtube.com/watch?v=QKJgcZGqbxI
+
+Seestar Complete Computer Control iOS/MAC/Android Easy Tutorial Sky Safari https://www.youtube.com/watch?v=TCcDdiu33xI
