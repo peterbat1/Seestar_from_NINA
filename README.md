@@ -1,7 +1,9 @@
 # Seestar S50 Control from NINA running in a Windows 11 Virtual Machine on a Linux system
 
 Peter D. Wilson
+
 Mascot, New South Wales, Australia
+
 2026-02-16 (last updated 2026-02-26)
 
 Following the opening of access to ZWO Seestar S50 smart telescopes as ASCOM Alpaca devices, many on-line tutorials have been published (see a list of those I have viewed below). All assume that the user will be running NINA on a native Windows 11 platform.
